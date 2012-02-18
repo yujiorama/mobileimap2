@@ -44,5 +44,6 @@ PLATFORMS
 
 DEPENDENCIES
   gmail
+  oauth (~> 0.4.5)
   sinatra
   sinatra-contrib

@@ -1,11 +1,11 @@
+# -*- coding: utf-8 -*-
 require 'gmail'
 require 'kconv'
-require 'pp'
 
 class GmailClient
 
-  def initialize(address, password)
-    @gmail = Gmail.new(address, password)
+  def initialize(*av)
+    @gmail = Gmail.new(*av)
   end
 
   def list_new_mail
