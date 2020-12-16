@@ -18,7 +18,7 @@ GEM
     mime-types (1.17.2)
     oauth (0.4.5)
     polyglot (0.3.3)
-    rack (1.4.0)
+    rack (1.6.13)
     rack-protection (1.2.0)
       rack
     rack-test (0.6.1)
